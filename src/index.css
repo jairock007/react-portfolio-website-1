@@ -12,9 +12,9 @@
 
 :root {
    --color-bg: #1f1f38;
-   --color-bg-varirant: #2c2c6c;
+   --color-bg-variant: #2c2c6c;
    --color-primary: #4db5ff;
-   --color-primary-varirant: rgba(77,181,255,0.4);
+   --color-primary-variant: rgba(77,181,255,0.4);
    --color-white: #fff;
    --color-light: rgba(255,255,255,0.6);
 
@@ -43,7 +43,7 @@ body {
 
 }
 
-/* ============== GENEARL STYLES ============== */
+/* ============== GENERAL STYLES ============== */
 
 .container {
    width: var(--container-width-lg);
@@ -83,7 +83,7 @@ section > h2 {
    color: var(--color-light);
 }
 
-a  {
+a {
    color: var(--color-primary);
    transition: var(--transition);
 }
@@ -115,6 +115,11 @@ a:hover {
    color: var(--color-bg);
 }
 
+.btn-primary {
+   background: var(--color-primary);
+   color: var(--color-bg);
+}
+
 img {
    display: block;
    width:100%;
@@ -128,7 +133,7 @@ img {
       width: var(--container-width-md);
    }
    section {
-      margin-bottom: 2rem;
+      margin-bottom: 6rem;
    }
 }
 
@@ -139,7 +144,7 @@ img {
       width: var(--container-width-sm);
    }
    section {
-      margin-top: 6rem;
+      margin-top: 2rem;
    }
 }
 
