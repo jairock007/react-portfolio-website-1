@@ -37,7 +37,7 @@
 }
 
 .about_card {
-    background: var(--color-bg-varirant);
+    background: var(--color-bg-variant);
     border: 1px solid transparent;
     border-radius: 1rem;
     padding: 2rem;
@@ -46,7 +46,7 @@
 }
 .about_card:hover {
     background: transparent;
-    border-color: var(--color-primary-varirant);
+    border-color: var(--color-primary-variant);
 }
 
 .about_icon {
@@ -71,7 +71,7 @@
 /* 
 ========= Media Queries (Medium Devices) =========== */
 
-@media screen and (max-width: 980px) { 
+@media screen and (max-width: 1024px) { 
    .about_container {
     grid-template-columns: 1fr;
     gap: 0;
