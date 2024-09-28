@@ -44,8 +44,8 @@ const testimonials = () => {
           </div>
           <h5 className="client_name">Tom Achiever</h5>
           <small className="client_review">
-            I get a good impression, I carry out my project with all the
-            possible quality and attention and support 24 hours a day
+            I was completely impressed with their professionalism and customer
+            service.
           </small>
         </SwiperSlide>
         <SwiperSlide className="testimonial">
@@ -54,8 +54,8 @@ const testimonials = () => {
           </div>
           <h5 className="client_name">Ernest Achiever </h5>
           <small className="client_review">
-            I get a good impression, I carry out my project with all the
-            possible quality and attention and support 24 hours a day
+            The product quality is consistently outstanding, exceeding my
+            expectations every time.
           </small>
         </SwiperSlide>
         <SwiperSlide className="testimonial">
@@ -64,8 +64,7 @@ const testimonials = () => {
           </div>
           <h5 className="client_name">Logan Achiever</h5>
           <small className="client_review">
-            I get a good impression, I carry out my project with all the
-            possible quality and attention and support 24 hours a day
+            Pricing is fair and transparent - definitely value for money.
           </small>
         </SwiperSlide>
       </Swiper>

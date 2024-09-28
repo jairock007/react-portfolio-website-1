@@ -1,9 +1,9 @@
 import React from 'react'
 import './about.css'
 import ME from '../../assets/me-about.jpg'
-import {FaAward} from 'react-icons/fa'
-import {FiUsers} from 'react-icons/fi'
-import {VscFolderActive} from 'react-icons/vsc'
+import { FaAward } from 'react-icons/fa'
+import { FiUsers } from 'react-icons/fi'
+import { VscFolderActive } from 'react-icons/vsc'
 
 
 const about = () => {
@@ -23,7 +23,7 @@ const about = () => {
             <article className='about_card'>
               <FaAward className='about-card' />
               <h5>Experience</h5>
-              <small>6 Month Working</small>
+              <small>1 Year Working</small>
             </article>
             <article className='about_card'>
               <FiUsers className='about-card' />
@@ -33,24 +33,24 @@ const about = () => {
             <article className='about_card'>
               <VscFolderActive className='about-card' />
               <h5>Projects</h5>
-              <small>5+ Completed</small>
+              <small>14+ Completed</small>
             </article>
           </div>
           <p>
-           Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit provident, ab ipsum asperiores excepturi sequi tempora consequuntur accusamus veniam distinctio, doloremque quasi libero, eveniet ducimus qui nobis iusto sint voluptatem?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit provident, ab ipsum asperiores excepturi sequi tempora consequuntur accusamus veniam distinctio, doloremque quasi libero, eveniet ducimus qui nobis iusto sint voluptatem?
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
         </div>
       </div>
-    </section> 
-      
-    
-
-       
+    </section>
 
 
-      
+
+
+
+
+
 
   )
 }

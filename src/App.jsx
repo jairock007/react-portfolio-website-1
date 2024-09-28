@@ -1,13 +1,13 @@
-import React from 'react'
-import Header from './components/header/header'
-import Nav from './components/nav/Nav'
-import About from './components/about/about'
-import Experience from './components/experience/experience'
-import Services from './components/services/services'
-import Portfolio from './components/portfolio/portfolio'
-import Testimonials from './components/testimonials/testimonials'
-import Contact from './components/contact/Contact'
-import Footer from './components/footer/footer'
+import React from "react";
+import Header from "./components/header/header";
+import Nav from "./components/nav/Nav";
+import About from "./components/about/about";
+import Experience from "./components/experience/experience";
+import Services from "./components/services/services";
+import Portfolio from "./components/portfolio/portfolio";
+import Testimonials from "./components/testimonials/testimonials";
+import Contact from "./components/contact/Contact";
+import Footer from "./components/footer/Footer";
 
 const App = () => {
   return (
@@ -21,10 +21,8 @@ const App = () => {
       <Testimonials />
       <Contact />
       <Footer />
-
-
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
