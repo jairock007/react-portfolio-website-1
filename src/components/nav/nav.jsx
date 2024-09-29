@@ -7,7 +7,7 @@ import { BiBook } from "react-icons/bi";
 import { RiServiceLine } from "react-icons/ri";
 import { BiMessageSquareDetail } from "react-icons/bi";
 
-const nav = () => {
+const Nav = () => {
   const [activeNav, setActiveNav] = useState("#");
   return (
     <nav>
@@ -50,4 +50,4 @@ const nav = () => {
   );
 };
 
-export default nav;
+export default Nav;
